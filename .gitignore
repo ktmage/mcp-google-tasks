@@ -1,0 +1,7 @@
+# cursor
+.cursor/
+
+# project
+node_modules/
+
+build/
