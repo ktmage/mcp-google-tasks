@@ -3,9 +3,15 @@
   "version": "1.0.0",
   "main": "index.js",
   "type": "module",
+  "bin": {
+    "gtask": "./build/index.js"
+  },
   "scripts": {
     "build": "tsc && chmod 775 build/index.js"
   },
+  "files": [
+    "build"
+  ],
   "keywords": [],
   "author": "",
   "license": "ISC",
