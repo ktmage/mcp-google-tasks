@@ -17,8 +17,10 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "@google-cloud/local-auth": "^2.1.0",
     "@modelcontextprotocol/sdk": "^1.10.1",
     "dotenv": "^16.5.0",
+    "googleapis": "^105.0.0",
     "install": "^0.13.0",
     "npm": "^11.3.0"
   },
