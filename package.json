@@ -7,7 +7,8 @@
     "gtask": "./build/index.js"
   },
   "scripts": {
-    "build": "tsc && chmod 775 build/index.js"
+    "build": "tsc && chmod 775 build/index.js",
+    "start": "node build/index.js"
   },
   "files": [
     "build"
@@ -19,10 +20,7 @@
   "dependencies": {
     "@google-cloud/local-auth": "^2.1.0",
     "@modelcontextprotocol/sdk": "^1.10.1",
-    "dotenv": "^16.5.0",
-    "googleapis": "^105.0.0",
-    "install": "^0.13.0",
-    "npm": "^11.3.0"
+    "googleapis": "^105.0.0"
   },
   "devDependencies": {
     "@types/node": "^22.14.1",
